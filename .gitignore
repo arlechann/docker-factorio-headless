@@ -1,0 +1,3 @@
+/seablock/mods/*
+!/seablock/mods/mod-list.json
+!/seablock/mods/mod-settings.dat

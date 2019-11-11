@@ -1,0 +1,6 @@
+version: "3"
+services:
+    factorio:
+        image: factorio:0.17.74
+        ports:
+        - "34197:34197/udp"
