@@ -2,4 +2,6 @@ config.ini
 server-settings.json
 
 /save/*
+!/save/save.txt
 /mods/*
+!/mods/mods.txt
