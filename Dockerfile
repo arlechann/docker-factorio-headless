@@ -12,4 +12,4 @@ WORKDIR /opt/factorio
 COPY ./mods /opt/factorio/mods
 
 ENTRYPOINT ["/opt/factorio/bin/x64/factorio"]
-CMD ["--mod-directory", "/opt/factorio/mods", "--start-server", "savedata"]
+CMD ["--mod-directory", "/opt/factorio/mods", "--start-server", "/opt/factorio/save/savedata"]
