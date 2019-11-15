@@ -4,3 +4,6 @@ services:
         image: factorio:0.17.74
         ports:
         - "34197:34197/udp"
+        volumes:
+        - "./save:/opt/factorio/save"
+
