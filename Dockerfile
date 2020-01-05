@@ -4,7 +4,7 @@ RUN pacman -Syu tar --noconfirm
 RUN pacman -Scc --noconfirm
 
 WORKDIR /opt
-RUN curl -O -L https://www.factorio.com/get-download/0.17.74/headless/linux64 && \
+RUN curl -O -L https://www.factorio.com/get-download/0.17.79/headless/linux64 && \
 	tar Jxvf linux64 && \
 	rm linux64
 
